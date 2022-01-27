@@ -1,7 +1,8 @@
 # Airline-Taxi-Out-time-estimation (Tarmac Delays)
 
-Objective: Using flight and weather data, is it possible to predict airline taxi times?
+Web scraped 4 months of flight statistics and weather data from 10 different airports to train a model to predict tarmac delays. Used lasso and ridge regularization techniques in addition to polynomial transformations to optimize model performance. The objective of this project was to develop a tool to help air traffic controllers have a better sense of the time an aircraft needs to takeoff.
 
+### Introduction
 
 If you've ever flown out of a congested airport, you've almost certainly encountered a cab time wait. Everyone is on board, the plane has even left the gate, but it's taking a long time to take off.
 
