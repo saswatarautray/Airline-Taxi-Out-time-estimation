@@ -1,4 +1,7 @@
-# Airline-Taxi-Out-time-estimation
+# Airline-Taxi-Out-time-estimation (Tarmac Delays)
+
+Objective: Using flight and weather data, is it possible to predict airline taxi times?
+
 
 If you've ever flown out of a congested airport, you've almost certainly encountered a cab time wait. Everyone is on board, the plane has even left the gate, but it's taking a long time to take off.
 
@@ -24,6 +27,15 @@ To account for seasonality, 10 airports were selected in four separate months (J
 
 
 ![image](https://user-images.githubusercontent.com/47337257/151258226-d181095c-32f4-4098-9d1a-c02974cd0f1f.png)
+
+
+
+### Approach
+1. Scrape flight data from the [Bureau of Transportation Statistics.](https://www.transtats.bts.gov/ONTIME/Departures.aspx)
+2. Scrape weather data from [WeatherUnderground](https://www.wunderground.com/history/monthly/us/ca/san-francisco/KSFO/date/2019-1)
+3. Clean and pre-process data
+4. Modeling and Evaluation
+
 
 We may deduce from this regression model that taxi times are longer at busier airports and on early flights. While this tendency is logical and may be predicted, it is critical to validate it with facts. Furthermore, this model can more precisely weigh each airport in order to calculate a plane's taxi time.
 And, while the reasons for Southwest's dominance in taxi time measurements are unknown, it is something worth investigating in order to identify other elements that might impact tarmac delays.
